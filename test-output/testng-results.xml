@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="158418" started-at="2019-08-22T09:16:29Z" finished-at="2019-08-22T09:19:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="158418" started-at="2019-08-22T09:16:29Z" finished-at="2019-08-22T09:19:08Z">
+      <class name="com.Scneider.Xyphias.Xyphias_webappNew.ContactsPageDotNewTest">
+        <test-method status="PASS" signature="InitializeContactsPage()[pri:0, instance:com.Scneider.Xyphias.Xyphias_webappNew.ContactsPageDotNewTest@6093dd95]" name="InitializeContactsPage" is-config="true" duration-ms="94148" started-at="2019-08-22T09:16:29Z" finished-at="2019-08-22T09:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeContactsPage -->
+        <test-method status="PASS" signature="VerifyContactsPageDotNewTitle()[pri:1, instance:com.Scneider.Xyphias.Xyphias_webappNew.ContactsPageDotNewTest@6093dd95]" name="VerifyContactsPageDotNewTitle" duration-ms="57" started-at="2019-08-22T09:18:03Z" finished-at="2019-08-22T09:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactsPageDotNewTitle -->
+        <test-method status="PASS" signature="EnterContactsDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Scneider.Xyphias.Xyphias_webappNew.ContactsPageDotNewTest@6093dd95]" name="EnterContactsDetailsTest" duration-ms="41353" started-at="2019-08-22T09:18:06Z" data-provider="getcontactdetailsfromExcel" finished-at="2019-08-22T09:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saloni]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Surana]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterContactsDetailsTest -->
+        <test-method status="PASS" signature="EnterContactsDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Scneider.Xyphias.Xyphias_webappNew.ContactsPageDotNewTest@6093dd95]" name="EnterContactsDetailsTest" duration-ms="20502" started-at="2019-08-22T09:18:47Z" data-provider="getcontactdetailsfromExcel" finished-at="2019-08-22T09:19:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nikhil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Christian]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HCL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterContactsDetailsTest -->
+      </class> <!-- com.Scneider.Xyphias.Xyphias_webappNew.ContactsPageDotNewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
